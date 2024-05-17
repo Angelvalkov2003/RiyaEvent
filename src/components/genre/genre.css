@@ -1,0 +1,12 @@
+.genre-container img{
+        width: 500px;
+        height: 500px;
+}
+.genre-container h2{
+    color:#F49867;
+    text-align: center;
+}
+
+.genre-container{
+    text-align: center;
+}
