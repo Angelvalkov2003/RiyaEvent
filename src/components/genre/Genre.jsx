@@ -4,8 +4,9 @@ import './genre.css';
 const Genre = ({ name, imageSrc }) => {
   return (
     <div className="genre-container">
-      <h2>{name}</h2>
-      <img src={imageSrc} alt={`${name} genre`} />
+      <a href={`#${name}`}>
+        <img src={imageSrc} alt={`${name} genre`} style={{ objectFit: "cover" }} />
+      </a>
     </div>
   );
 };

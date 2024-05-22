@@ -1,0 +1,41 @@
+.musician-container {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .musician-info,
+  .musician-photo {
+    width: 50%; /* Make each element take half the width */
+  }
+  
+  .musician-photo img {
+    width: 100%; /* Make the image take the full width of its container */
+  }
+  
+  .musician-info h3 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em; /* Adjust the font size */
+    line-height: 1.2; /* Adjust the line height */
+    padding-bottom: 10%;
+    background: linear-gradient(103.22deg, #bb7cfd -13.86%, #fcae84 99.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .musician-text{
+    color:rgba(238, 238, 238, 0.979);
+    font-size: 140%;
+    margin: 5%;
+  }
+  
+  .musician-container.even .musician-info {
+    order: 2; /* Swap the order of display for even-indexed musicians */
+  }
+  
+  .musician-container.even .musician-photo {
+    order: 1; /* Swap the order of display for even-indexed musicians */
+  }
+  
