@@ -1,19 +1,29 @@
 import React from 'react';
 import './genres.css';
 import { Genre } from "../../components";
-import { Rock, Popfolk, DJ, Narodna, Pop, Tanci, Rap } from '../../assets';
+import comedy from '../../assets/comedy.jpeg';
+import dancer from '../../assets/dancer.jpeg';
+import DJ from '../../assets/DJ.jpeg';
+import folk from '../../assets/folk.jpeg';
+import groups from '../../assets/groups.jpeg';
+import pop from '../../assets/pop.jpeg';
+import popfolk from '../../assets/popfolk.jpeg';
+import rap from '../../assets/rap.jpeg';
+
+
+
 
 const Genres = () => {
 
   const genres = [
-    { name: "Попфолк", imageSrc: Popfolk },
-    { name: "Рок", imageSrc: Rock },
-    { name: "Диджея", imageSrc: DJ },
-    { name: "Народна", imageSrc: Narodna },
-    { name: "Поп", imageSrc: Pop },
-    { name: "Танци", imageSrc: Tanci },
-    { name: "Рап", imageSrc: Rap },
-    { name: "Рок", imageSrc: Rock }
+    { name: "Pop", imageSrc: pop },
+    { name: "Rap", imageSrc: rap },
+    { name: "Popfolk", imageSrc: popfolk },
+    { name: "Folk", imageSrc: folk },
+    { name: "Groups", imageSrc: groups },
+    { name: "Dancer", imageSrc: dancer },
+    { name: "DJ", imageSrc: DJ },
+    { name: "Comedy", imageSrc: comedy }
   ];
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css';
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/logo.png';
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
           <p><a href="#home">Начало</a></p>
           <p><a href="#genres">Жанрове</a></p>
           <p><a href="#musicians">Изпълнители</a></p>
-          <p><a href="#aboutus">За нас</a></p>
+          <p><a href="#order">Поръчай</a></p>
         </div>
       </div>
     </div>

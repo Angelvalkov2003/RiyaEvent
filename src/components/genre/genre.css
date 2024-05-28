@@ -1,12 +1,19 @@
-.genre-container img{
-        width: 500px;
-        height: 500px;
-}
-.genre-container h2{
-    color:#F49867;
+.genre-container {
     text-align: center;
 }
 
-.genre-container{
+.genre-container img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.genre-container img:hover {
+    transform: scale(1.1); /* Increase scale on hover */
+}
+
+.genre-container h2 {
+    color: #F49867;
     text-align: center;
 }

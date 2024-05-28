@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
     padding: 2rem 6rem;
 }
@@ -18,8 +19,7 @@
 }
 
 .riya__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 100px;
 }
 
 .riya__navbar-links_container {

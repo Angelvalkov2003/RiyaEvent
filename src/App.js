@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Footer, Genres, Musicians, Header } from "./containers";
+import { Footer, Genres, Musicians, Header, MakeOrder } from "./containers";
 import { Navbar } from "./components";
 import "./App.css";
 
@@ -13,6 +13,7 @@ const App = () => {
       </div>
       <Genres />
       <Musicians />
+      <MakeOrder />
       <Footer />
     </div>
   );
